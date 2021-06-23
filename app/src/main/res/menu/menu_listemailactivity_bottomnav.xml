@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu1"
+        android:icon="@drawable/ic_baseline_mark_email_unread_24"
+        android:title="Mail"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu2"
+        android:icon="@drawable/ic_baseline_videocam_24"
+        android:title="Meet"
+        app:showAsAction="never"/>
 </menu>
