@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">secondmonth_test</string>
+    <string name="app_name_2">Compose</string>
+    <string-array name="email_address">
+        <item>
+            blackaxe2202@gmail.com
+        </item>
+        <item>
+            khongsovo99@gmail.com
+        </item>
+        <item>
+            ngayemdi@gmail.com
+        </item>
+        <item>
+            vjppzo99@gmail.com
+        </item>
+    </string-array>
+</resources>
