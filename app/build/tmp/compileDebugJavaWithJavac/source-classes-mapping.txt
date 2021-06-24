@@ -1,0 +1,6 @@
+com/snkz/secondmonth_test/BuildConfig.java
+ com.snkz.secondmonth_test.BuildConfig
+com/snkz/secondmonth_test/databinding/ActivityMainBinding.java
+ com.snkz.secondmonth_test.databinding.ActivityMainBinding
+com/snkz/secondmonth_test/DataBindingTriggerClass.java
+ com.snkz.secondmonth_test.DataBindingTriggerClass

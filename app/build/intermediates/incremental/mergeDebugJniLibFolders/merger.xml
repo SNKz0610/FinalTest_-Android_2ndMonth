@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\Nam 4- ki 2\AIBLES_GO\Chapter\Final exam_Android_2nd Month\FinalTest_-Android_2ndMonth\app\src\main\jniLibs"/></dataSet><dataSet config="debug" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="D:\Nam 4- ki 2\AIBLES_GO\Chapter\Final exam_Android_2nd Month\FinalTest_-Android_2ndMonth\app\src\debug\jniLibs"/></dataSet></merger>
