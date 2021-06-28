@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/main_graph"
+    app:startDestination="@id/listEmailFragment">
+    <fragment
+        android:id="@+id/listEmailFragment"
+        android:name="com.snkz.secondmonth_test.ListEmailFragment"
+        android:label="ListEmailFragment" >
+        <action
+            android:id="@+id/action_listEmailFragment_to_composeFragment"
+            app:destination="@id/composeFragment" />
+        <action
+            android:id="@+id/action_listEmailFragment_to_readingEmailFragment"
+            app:destination="@id/readingEmailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/composeFragment"
+        android:name="com.snkz.secondmonth_test.ComposeFragment"
+        android:label="ComposeFragment" >
+        <action
+            android:id="@+id/action_composeFragment_to_listEmailFragment"
+            app:destination="@id/listEmailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/readingEmailFragment"
+        android:name="com.snkz.secondmonth_test.ReadingEmailFragment"
+        android:label="ReadingEmailFragment" >
+        <action
+            android:id="@+id/action_readingEmailFragment_to_listEmailFragment"
+            app:destination="@id/listEmailFragment" />
+        <argument
+            android:name="mail_information"
+            app:argType="com.snkz.secondmonth_test.Mail" />
+    </fragment>
+</navigation>
